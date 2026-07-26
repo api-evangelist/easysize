@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of EasySize hosts
+hosts:
+- host: https://easysize.me
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://developers.easysize.me
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://help.easysize.me
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: easysize-help-security.txt
+    vendor: Intercom
+    canonical: https://app.intercom.com/.well-known/security.txt
+    notes: >-
+      Served by the Intercom-hosted help center, not a first-party EasySize security
+      program; contact/bug-bounty point at Intercom/Bugcrowd. Recorded for completeness;
+      not wired as an EasySize SecurityTxt/Security pointer.
+  - path: /llms.txt
+    status: 200
+    file: ../llms/easysize-llms.txt
+    notes: EasySize / Fit Quiz help-center llms.txt (real, provider content).

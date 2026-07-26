@@ -1,0 +1,41 @@
+generated: '2026-07-18'
+method: searched
+source: https://developers.easysize.me/easysize_library/
+summary: >-
+  EasySize is a client-side (browser) integration, not a REST API. Merchants embed a
+  JavaScript library, identify themselves with a merchant-specific shop_id, pass product
+  and shopper context on initialization, and report order/return events so the
+  recommendation model can learn. There is no OAuth, no cursor pagination, and no
+  idempotency-key contract in the documented surface.
+authentication:
+  style: merchant-identifier
+  parameter: shop_id
+  location: js-config
+  notes: >-
+    Integrations are identified by a shop_id issued by EasySize; there is no documented
+    API key/secret or OAuth flow beyond the shop_id passed to the library config.
+identity:
+  user_id: >-
+    Shopper identifier passed in config; "-1" denotes an anonymous shopper.
+event_model:
+  style: client-side-events
+  events:
+  - name: sizeChangedTo
+    description: Shopper selected a size in the merchant selector.
+  - name: order-tracking
+    description: Report completed orders so the algorithm can learn.
+    docs: https://developers.easysize.me/order_tracking/
+  - name: return-tracking
+    description: Report returns (and reasons) so the algorithm can learn.
+    docs: https://developers.easysize.me/return_tracking/
+localization:
+  languages: '11+ with auto-detection'
+  size_formats: [UK, EU, US, international, custom]
+idempotency:
+  supported: false
+pagination:
+  supported: false
+cross_links:
+  lifecycle: lifecycle/easysize-lifecycle.yml
+  components: components/easysize-components.yml
+  packages: packages/easysize-packages.yml

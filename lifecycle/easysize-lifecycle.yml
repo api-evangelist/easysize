@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: https://developers.easysize.me/
+versioning:
+  scheme: path-versioned-library
+  current: web_app_v1.0
+  evidence: JS library served under /web_app_v1.0/ on webapp.easysize.me
+  docs: https://developers.easysize.me/easysize_library/
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No published deprecation/sunset policy found at time of search.
+sla:
+  url: null
+status_page: https://easysize.statuspage.io
+deprecated_operations: []

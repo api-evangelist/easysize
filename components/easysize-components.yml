@@ -1,0 +1,41 @@
+generated: '2026-07-18'
+method: searched
+source: https://developers.easysize.me/easysize_library/
+loader:
+  script: https://webapp.easysize.me/web_app_v1.0/js/easysize.js
+  global: EasySize
+  init: |
+    var easysize = new EasySize(conf);
+    easysize.start();
+components:
+- family: Fit Quiz
+  name: Fit Quiz size-recommendation widget
+  kind: embedded-widget
+  description: >-
+    In-page widget rendered on a product (PDP) or landing/size-guide page that guides a
+    shopper to a personalized size recommendation without asking for body measurements.
+  config:
+  - shop_id            # merchant-specific identifier issued by EasySize
+  - product_id
+  - product_type
+  - product_brand
+  - product_gender
+  - product_sku
+  - user_id            # logged-in user id, or "-1" for anonymous
+  methods:
+  - name: start
+    description: Initializes the library and renders the widget.
+  - name: sizeChangedTo
+    description: Signals when the shopper selects a size in the merchant's own selector.
+  hooks:
+  - name: size_update_function
+    description: Callback to update the merchant's custom size selector from the recommendation.
+  - name: loaded
+    description: Callback executed when the EasySize widget is ready.
+- family: Feedback
+  name: Post-purchase Feedback chatbot
+  kind: embedded-widget
+  description: >-
+    Post-purchase chatbot that gathers size-and-fit feedback to improve future
+    recommendations; integrates with Klaviyo for email capture and personalized flows.
+  docs: https://developers.easysize.me/feedback/

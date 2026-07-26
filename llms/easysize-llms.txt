@@ -1,0 +1,67 @@
+# Easysize / Fit Quiz Help Center
+
+> Advice and answers from Easysize / Fit Quiz team
+
+## Basics
+
+- [Product categories that Fit Quiz works with](https://help.easysize.me/en/articles/9212720-product-categories-that-fit-quiz-works-with.md): Not sure if Fit Quiz is right for your brand and products? Check this article for examples of products Fit Quiz can be used on
+- [How to efficiently run an A/B test of Fit Quiz](https://help.easysize.me/en/articles/9214960-how-to-efficiently-run-an-a-b-test-of-fit-quiz.md): Thinking of running an A/B test to assess Fit Quiz's impact on your shop? Use this guide to set it up and correctly analyze results
+- [How the Fit Quiz algorithm makes size recommendations](https://help.easysize.me/en/articles/15432097-how-the-fit-quiz-algorithm-makes-size-recommendations.md): Learn about the algorithm models, types of data it uses, and how you can tailor size recommendations to your product.
+
+## Product features
+
+- [Design and styling customization options](https://help.easysize.me/en/articles/9047810-design-and-styling-customization-options.md): Learn more about what you can customize in Fit Quiz to make it fit your brand
+- [Leverage "Size Insights" to provide more fitting guidance](https://help.easysize.me/en/articles/9071070-leverage-size-insights-to-provide-more-fitting-guidance.md): Size Insights offers visual or text-based notifications to indicate item's sizing and fitting. Learn more about Size Insights here
+- ["Out of stock" email capture with Fit Quiz and Klaviyo](https://help.easysize.me/en/articles/9213361-out-of-stock-email-capture-with-fit-quiz-and-klaviyo.md): Leverage the "Out of stock" email capture functionality and Klaviyo’s "Back in stock" automated workflows
+- [Additional recommendations – length, width, fit](https://help.easysize.me/en/articles/9047812-additional-recommendations-length-width-fit.md): Learn how Easysize/ Fit Quiz recommends additional attributes like length, width, fit and goes beyond just sizes
+- [Enable email capture and personalized flows with Klaviyo and Fit Quiz](https://help.easysize.me/en/articles/9220759-enable-email-capture-and-personalized-flows-with-klaviyo-and-fit-quiz.md): Learn how to capture emails within the Fit Quiz widget for Klaviyo's automated personalized flows and offers
+- [How Fit Quiz works with Unisex products](https://help.easysize.me/en/articles/9035059-how-fit-quiz-works-with-unisex-products.md): Learn more about unisex products support.
+- [Multi-language support and Translations](https://help.easysize.me/en/articles/9047802-multi-language-support-and-translations.md): Learn which languages are currently supported in Easysize/Fit Quiz, how to add new languages and update translations
+- [Advanced and custom recommendations with Fit Quiz](https://help.easysize.me/en/articles/9047816-advanced-and-custom-recommendations-with-fit-quiz.md): Learn about advanced recommendations for products with unique fitting or designed for a specific customer segment
+- [Feedback – gather post-purchase feedback for better size and fit](https://help.easysize.me/en/articles/9071120-feedback-gather-post-purchase-feedback-for-better-size-and-fit.md): Learn how to improve post-purchase experience and gain more insights through our Feedback chatbot
+- [Adding Fit Quiz to standalone landing \(non PDP\) pages](https://help.easysize.me/en/articles/9221464-adding-fit-quiz-to-standalone-landing-non-pdp-pages.md): Instructions and tips on integrating Fit Quiz to non product \(non PDP\) pages, like landing pages, catalog and others.
+- [Adding Fit Quiz to a size guide page](https://help.easysize.me/en/articles/9403913-adding-fit-quiz-to-a-size-guide-page.md): Follow this guide and technical tops to add Fit Quiz to your size guide page.
+
+## Integration with other e-commerce platforms
+
+- [E-commerce platforms Easysize/Fit Quiz can be integrated with](https://help.easysize.me/en/articles/9042071-e-commerce-platforms-easysize-fit-quiz-can-be-integrated-with.md): Check whether Easysize/Fit Quiz can be integrated with your shop
+- [Integrating with shops on non-Shopify platforms: a step-by-step guide](https://help.easysize.me/en/articles/9047292-integrating-with-shops-on-non-shopify-platforms-a-step-by-step-guide.md): Check whether Easysize/Fit Quiz can be integrated with your shop on non-Shopify platforms
+- [Integration with non-Shopify platforms: Sharing historical data](https://help.easysize.me/en/articles/9047544-integration-with-non-shopify-platforms-sharing-historical-data.md): Learn more about the historical data required for Easysize/Fit Quiz, how to share and maintain it
+- [Integration with non-Shopify platforms: Size Models](https://help.easysize.me/en/articles/9047463-integration-with-non-shopify-platforms-size-models.md): This document explains how Size Models can be added as a custom attribute and used in size recommendations
+- [Implementing Easysize JS library](https://help.easysize.me/en/articles/9047189-implementing-easysize-js-library.md): Using our JS library is the most common way of integrating Fit Quiz on non-Shopify shops. Check this article for more details
+- [Implementing Order tracking](https://help.easysize.me/en/articles/9047361-implementing-order-tracking.md): Learn why it's important to set up order tracking and find implementation suggestions in this article
+- [Implementing Return tracking](https://help.easysize.me/en/articles/9047414-implementing-return-tracking.md): Learn why it's important to set up return tracking and find implementation suggestions in this article
+
+## Reports and Analytics
+
+- [Types of performance reports and analytics available in Easysize/Fit Quiz](https://help.easysize.me/en/articles/8948187-types-of-performance-reports-and-analytics-available-in-easysize-fit-quiz.md): Learn more about analytics and performance reports you can use to measure Easysize/Fit Quiz impact on your shop
+- [Understanding Fit Quiz's Shopify Performance dashboard](https://help.easysize.me/en/articles/9026470-understanding-fit-quiz-s-shopify-performance-dashboard.md): Just launched Fit Quiz on your Shopify store? You can now track its performance through our Shopify Performance dashboard
+- [Shopify Dashboard: Metrics and what they mean](https://help.easysize.me/en/articles/8978442-shopify-dashboard-metrics-and-what-they-mean.md): Learn about the metrics in the Performance Dashboard and what those metrics mean
+- [Shopify Dashboard: Additional sales and return metrics](https://help.easysize.me/en/articles/9026713-shopify-dashboard-additional-sales-and-return-metrics.md): Recently launched sales and return metrics offer even more insights into Fit Quiz's impact and shoppers' purchase and return habits
+- [Shopify Dashboard: Troubleshooting](https://help.easysize.me/en/articles/8978447-shopify-dashboard-troubleshooting.md): Common issues with the Shopify Performance Dashboard and how to solve them
+- [Exporting "raw" performance data](https://help.easysize.me/en/articles/8978428-exporting-raw-performance-data.md): Types of raw performance data, that can be exported and shared with shops
+- ["Out of Stock" reports and insights](https://help.easysize.me/en/articles/8978448-out-of-stock-reports-and-insights.md): Learn more about our Out of Stock report
+- [Understanding your "Basic report" on the Starter Plan](https://help.easysize.me/en/articles/8933425-understanding-your-basic-report-on-the-starter-plan.md): Learn more about our "Basic report" and metrics available to shops on the Starter plan
+- [Gaining more insights from the "Pro report"](https://help.easysize.me/en/articles/8978416-gaining-more-insights-from-the-pro-report.md): Monthly Pro reports are an advanced version of the Basic reports with additional metrics and benchmark analysis
+- [Leveraging in-depth analytics and tailored metrics in the “Premium report”](https://help.easysize.me/en/articles/8978417-leveraging-in-depth-analytics-and-tailored-metrics-in-the-premium-report.md): Monthly Premium reports allow shops to gain more in-depth insights into shoppers' behavior and tailor metrics to their needs
+- [User Types in Fit Quiz reports](https://help.easysize.me/en/articles/9030431-user-types-in-fit-quiz-reports.md): Learn more about user types and how we use them in our reports
+- [User Segments in Fit Quiz Reports](https://help.easysize.me/en/articles/9030371-user-segments-in-fit-quiz-reports.md): Learn more about user segments and how we use them in our reports
+- [How the ROI metric is calculated](https://help.easysize.me/en/articles/9141293-how-the-roi-metric-is-calculated.md): Learn about the ROI metric and measuring an impact Fit Quiz has on your business
+
+## Billing
+
+- [Fit Quiz plans and features](https://help.easysize.me/en/articles/8985028-fit-quiz-plans-and-features.md): Learn about our current pricing plans and included features
+- [Understanding your subscription options: Annual and Pay-as-you-go](https://help.easysize.me/en/articles/8985119-understanding-your-subscription-options-annual-and-pay-as-you-go.md): At Fit Quiz, we offer two main types of subscriptions for our services: Annual Subscription and Pay-as-you-go
+- [What are Usage fees?](https://help.easysize.me/en/articles/8985197-what-are-usage-fees.md): How we calculate the usage fees, where you can see them and how to interpret your Shopify invoices
+- [Trying Fit Quiz for Free](https://help.easysize.me/en/articles/8985308-trying-fit-quiz-for-free.md): You can try Fit Quiz for free to see if it's right for you. This guide will explain how our free trials work
+- [How to apply a Fit Quiz discount code on Shopify](https://help.easysize.me/en/articles/8985363-how-to-apply-a-fit-quiz-discount-code-on-shopify.md): Got a special Fit Quiz discount code? Here's how to use it and apply on any of the Fit Quiz subscriptions
+- [How to get developer access to Fit Quiz on Shopify](https://help.easysize.me/en/articles/8985392-how-to-get-developer-access-to-fit-quiz-on-shopify.md): Are you a developer or an agency managing a fashion Shopify shop? You can now get developer access to Fit Quiz and try it out free of charge
+- [How to terminate your Fit Quiz Subscription](https://help.easysize.me/en/articles/8985441-how-to-terminate-your-fit-quiz-subscription.md): We're sorry to see you go! Here's how you can terminate your Fit Quiz subscription and uninstall the app
+- [Can I pause my Fit Quiz subscription?](https://help.easysize.me/en/articles/8985477-can-i-pause-my-fit-quiz-subscription.md): If you need to temporarily halt your Fit Quiz service, the process may vary depending on your subscription type
+- [How to update your card on record](https://help.easysize.me/en/articles/8985500-how-to-update-your-card-on-record.md): Updating card details, if your previously saved card expired or cannot be charged
+
+## Partnerships
+
+- [Partnership Program – who is it for?](https://help.easysize.me/en/articles/8978438-partnership-program-who-is-it-for.md): Explore who is eligible to join our Partnerships Program
+- [Our Partnership Program and benefits](https://help.easysize.me/en/articles/8978437-our-partnership-program-and-benefits.md): Explore opportunities that we offer through our Partnerships Program
+- [How to enroll into the Partnership Program](https://help.easysize.me/en/articles/8978439-how-to-enroll-into-the-partnership-program.md): Ready to join our Partnership Program? Here are the next steps

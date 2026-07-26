@@ -1,7 +1,18 @@
 aid: easysize
 name: EasySize
-description: EasySize is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EasySize is an AI-powered size-recommendation platform for fashion e-commerce, marketed
+  as "Fit Quiz." It helps clothing, footwear, sportswear, and swimwear retailers reduce
+  returns and increase conversion by giving shoppers a personalized size recommendation
+  without asking them for body measurements. EasySize ships as a native Shopify app and as
+  a JavaScript library ("web app") that merchants embed on non-Shopify storefronts; the
+  library is configured with a merchant-specific shop_id and product context and renders an
+  in-page Fit Quiz widget. Merchants wire order-tracking and return-tracking events back to
+  EasySize so the recommendation algorithm can learn, and can capture emails and drive
+  personalized flows through a Klaviyo integration. EasySize supports 11+ languages with
+  auto-detection, multiple size formats (UK/EU/US/international/custom), unisex and
+  gender-aware logic, and additional fit/width/length recommendations. The company was a
+  portfolio company of 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/easysize/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +20,58 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/61fd2ddef6278cfc29072ae9/61fd48610cc67c01afaecfd3_easysize-logo.svg
 tags:
 - Company
-apis: []
+- Fashion
+- E-Commerce
+- Size Recommendation
+- Fit
+- Retail
+- Shopify
+- Personalization
+- Widget
+- JavaScript
+apis:
+- name: EasySize Fit Quiz JavaScript Library
+  description: >-
+    Client-side JavaScript library that embeds the EasySize "Fit Quiz" size-recommendation
+    widget on a merchant storefront. Loaded via a script tag from the EasySize web app CDN,
+    it exposes a global EasySize object configured with a merchant shop_id plus product
+    context, and provides hooks for size selection, order tracking, and return tracking.
+  humanURL: https://developers.easysize.me
+  baseURL: https://webapp.easysize.me
+  tags:
+  - Size Recommendation
+  - JavaScript
+  - Widget
+  properties:
+  - type: Documentation
+    url: https://developers.easysize.me
+  - type: GettingStarted
+    url: https://developers.easysize.me/easysize_library/
+  - type: Packages
+    url: packages/easysize-packages.yml
+  - type: SDKs
+    url: packages/easysize-packages.yml
+  - type: Components
+    url: components/easysize-components.yml
+  - type: Conventions
+    url: conventions/easysize-conventions.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +80,38 @@ maintainers:
 common:
 - type: Website
   url: https://easysize.me
+- type: DeveloperPortal
+  url: https://developers.easysize.me
+- type: Documentation
+  url: https://developers.easysize.me
+- type: GettingStarted
+  url: https://developers.easysize.me/easysize_library/
+- type: HelpCenter
+  url: https://help.easysize.me
+- type: Support
+  url: https://help.easysize.me
+- type: Blog
+  url: https://www.easysize.me/blog
+- type: Pricing
+  url: https://www.easysize.me/pricing
+- type: TermsOfService
+  url: https://www.easysize.me/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.easysize.me/privacy-policy
+- type: SignUp
+  url: https://apps.shopify.com/fit-quiz
+- type: StatusPage
+  url: https://easysize.statuspage.io
+- type: Lifecycle
+  url: lifecycle/easysize-lifecycle.yml
+- type: LLMsTxt
+  url: llms/easysize-llms.txt
+- type: WellKnown
+  url: well-known/easysize-well-known.yml
+- type: DomainSecurity
+  url: security/easysize-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

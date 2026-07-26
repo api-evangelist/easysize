@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: https://developers.easysize.me/easysize_library/
+notes: >-
+  EasySize distributes its client integration as a browser JavaScript library loaded from
+  the EasySize web-app CDN (not published to npm/PyPI or other language registries at time
+  of search). The Shopify listing is a native app install, not a client SDK. Registries
+  probed with no first-party package found: npm, PyPI, Maven Central, NuGet, pkg.go.dev,
+  RubyGems, Packagist, crates.io.
+packages:
+- language: javascript
+  registry: cdn
+  name: easysize.js (EasySize web app library)
+  url: https://webapp.easysize.me/web_app_v1.0/js/easysize.js
+  install: >-
+    <script type="text/javascript"
+    src="https://webapp.easysize.me/web_app_v1.0/js/easysize.js"></script>
+  official: true
+  kind: browser-library
+  version: web_app_v1.0
+distributions:
+- channel: shopify-app
+  name: Fit Quiz
+  url: https://apps.shopify.com/fit-quiz
+  official: true
+  kind: platform-app
