@@ -55,7 +55,7 @@ tags:
 - Retail
 - Shopify
 - Personalization
-- Widget
+- Widgets
 - JavaScript
 tags_raw:
 - Company
@@ -78,6 +78,10 @@ apis:
   humanURL: https://developers.easysize.me
   baseURL: https://webapp.easysize.me
   tags:
+  - Size Recommendation
+  - JavaScript
+  - Widgets
+  tags_raw:
   - Size Recommendation
   - JavaScript
   - Widget
