@@ -46,6 +46,10 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://cdn.prod.website-files.com/61fd2ddef6278cfc29072ae9/61fd48610cc67c01afaecfd3_easysize-logo.svg
+x-docs-platform: mkdocs
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
+x-docs-hosting: github-pages
 tags:
 - Company
 - Fashion
