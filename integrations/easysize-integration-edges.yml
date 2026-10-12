@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/easysize/integrations
+- https://n8n.io/integrations/easysize/
+- https://composio.dev/toolkits/easysize
+- https://monid.ai/tools/easysize
+checked:
+- https://composio.dev/toolkits/easysize
+- https://monid.ai/tools/easysize
+- https://n8n.io/integrations/easysize/
+- https://zapier.com/apps/easysize/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
