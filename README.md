@@ -64,6 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-EasySize is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+EasySize is an AI-powered size-recommendation platform for fashion e-commerce, marketed as "Fit Quiz." It helps clothing, footwear, sportswear, and swimwear retailers reduce returns and increase conversion by giving shoppers a personalized size recommendation without asking them for body measurements. EasySize ships as a native Shopify app and as a JavaScript library ("web app") that merchants embed on non-Shopify storefronts; the library is configured with a merchant-specific shop_id and product context and renders an in-page Fit Quiz widget. Merchants wire order-tracking and return-tracking events back to EasySize so the recommendation algorithm can learn, and can capture emails and drive personalized flows through a Klaviyo integration. EasySize supports 11+ languages with auto-detection, multiple size formats (UK/EU/US/international/custom), unisex and gender-aware logic, and additional fit/width/length recommendations. The company was a portfolio company of 500 Global.
 
-Backed by: 500-global — https://easysize.me
+**Areas:** Company · Fashion · E-Commerce · Size Recommendation · FIT · Retail · Shopify · Personalization · Widgets · JavaScript
+
+## EasySize on APIs.io
+
+Everything profiled for EasySize is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/easysize/](https://apis.io/providers/easysize/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [EasySize Fit Quiz JavaScript Library](https://apis.io/apis/easysize/easysize-fit-quiz-javascript-library/) — Client-side JavaScript library that embeds the EasySize "Fit Quiz" size-recommendation widget on a merchant storefront. Loaded via a script tag from the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Easysize Domain Security](https://apis.io/security/easysize/easysize-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://easysize.me)
+- [Documentation](https://developers.easysize.me)
+- [Getting started](https://developers.easysize.me/easysize_library/)
+- [Pricing](https://www.easysize.me/pricing)
+- [Sign up](https://apps.shopify.com/fit-quiz)
+- [Support](https://help.easysize.me)
+- [Blog](https://www.easysize.me/blog)
+- [Terms of service](https://www.easysize.me/terms-of-service)
+- [Privacy policy](https://www.easysize.me/privacy-policy)
+- [Status](https://easysize.statuspage.io)
+
+## API Evangelist rating
+
+**Kin Score 27.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/easysize/](https://apis.io/providers/easysize/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EasySize: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/easysize/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
